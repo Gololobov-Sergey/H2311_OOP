@@ -11,6 +11,14 @@
 # tuple - ()
 # dict  - {key: value}
 
-a = int(input("Enter a : "))
-b = int(input("Enter b : "))
-print(a + b)
+# a = int(input("Enter a : "))
+# b = int(input("Enter b : "))
+# print(a + b)
+
+names = ['Anna', 'Serg', "Ivan", 'Olga']
+print(names)
+print(names[1])
+
+game = {"user": 100, "comp": 50, "settings": []}
+print(game)
+print(game["comp"])
