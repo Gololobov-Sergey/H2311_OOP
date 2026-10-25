@@ -41,13 +41,13 @@
 #     print(a, end=' ')
 #     a += 1
 
-number = int(input("Enter number : "))
-if number > 0:
-    print("Positive")
-elif number < 0:
-    print("Negative")
-else:
-    print("Zero")
+# number = int(input("Enter number : "))
+# if number > 0:
+#     print("Positive")
+# elif number < 0:
+#     print("Negative")
+# else:
+#     print("Zero")
 
 
 
@@ -59,4 +59,6 @@ ramka("Я люблю Python", '*')
 # ******************
 # * Я люблю Python *
 # ******************
-
+a = 10
+print("Value =", a, "m")
+print(f"Value = {a} m")
